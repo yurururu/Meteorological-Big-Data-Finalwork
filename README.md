@@ -1,7 +1,10 @@
 # Meteorological-Big-Data-Finalwork
 Physics-constrained NN (forked form constrained-downscaling-main)
+
 这个仓库是我为了完成《气象大数据》课程实践而建的
+
 本次实践我按照原论文**Physics-Constrained Deep Learning for Climate Downscaling**开源的代码，在windows上配置环境并进行修改
+
 按照我的报告的逻辑设计了12组实验：
 | 编号 | 数据集 | 上采样倍数 | 模型     | 是否处理时序 | 物理约束   | 实验目的简述                             |
 |------|--------|-------------|----------|----------------|------------|------------------------------------------|
