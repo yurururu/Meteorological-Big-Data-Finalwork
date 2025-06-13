@@ -24,4 +24,4 @@ Physics-constrained NN (forked form constrained-downscaling-main)
 
 本次实践中的流程图除了CNN的模型架构外均为本人自己制作，实验结果的特定帧的展示也是我自己得出的实验结果截图，本次实践时间跨度不长，但是前前后后也改了好几版
 
-另外，我作为联合作者也发表了一篇模型中加入物理模块的相关论文***A Physics-Enhanced Network for Predicting Sequential Satellite Images of Typhoon Clouds**，未来会在这个领域继续深耕
+另外，我作为联合作者也发表了一篇模型中加入物理模块的相关论文**A Physics-Enhanced Network for Predicting Sequential Satellite Images of Typhoon Clouds**，未来会在这个领域继续深耕
