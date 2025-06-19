@@ -1,5 +1,5 @@
 # Meteorological-Big-Data-Finalwork
-Physics-constrained NN (forked form constrained-downscaling-main)
+Physics-constrained NN (forked form [constrained-downscaling-main](https://github.com/RolnickLab/constrained-downscaling.git))
 
 这个仓库是我为了完成《气象大数据》课程实践而建的
 
