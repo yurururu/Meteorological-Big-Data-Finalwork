@@ -21,10 +21,10 @@ Physics-constrained NN (forked form [constrained-downscaling-main](https://githu
 | E11  | TCW8   | 8×          | GAN      | 否             | None       | 高倍放大下，GAN性能表现                 |
 | E12  | TCW8   | 8×          | GAN      | 否             | Softmax    | 高倍放大下，加入Softmax物理约束效果     |
 
-由于以上实验得到结果基本可以判定在TCW4数据集上GAN模型加上Softmax约束效果最佳，故报告最后我又加了一组实验，测试TCW4数据集在GAN模型加上Add约束层的效果，效果也是不错的
+- 由于以上实验得到结果基本可以判定在`TCW4`数据集上`GAN`模型加上`Softmax`约束效果最佳，故报告最后我又加了一组实验，测试`TCW4`数据集在`GAN`模型加上`Add`约束层的效果，效果也是不错的
 
-本次试验结果基本可以判定，CNN、GAN、FlowConvGRU三种模型再加上物理约束后都有一定的性能提升，但是CNN在上采样率为2x时，效果不好，可能是由于上采样倍数不够或者数据集数量不够，原因有待验证
+- 本次试验结果基本可以判定，`CNN、GAN、FlowConvGRU`三种模型再加上物理约束后都有一定的性能提升，但是`CNN`在上采样率为`2x`时，效果不好，可能是由于上采样倍数不够或者数据集数量不够，原因有待验证
 
-本次实践中的流程图除了CNN的模型架构外均为本人自己制作，实验结果的特定帧的展示也是我自己得出的实验结果截图，本次实践时间跨度不长，但是前前后后也改了好几版
+- 本次实践中的流程图除了`CNN`的模型架构外均为本人自己制作，实验结果的特定帧的展示也是我自己得出的实验结果截图，本次实践时间跨度不长，但是前前后后也改了好几版
 
-另外，我作为联合作者也发表了一篇模型中加入物理模块的相关论文**A Physics-Enhanced Network for Predicting Sequential Satellite Images of Typhoon Clouds**，未来会在这个领域继续深耕
+- 另外，我作为联合作者也发表了一篇模型中加入物理模块的相关论文`A Physics-Enhanced Network for Predicting Sequential Satellite Images of Typhoon Clouds`，未来会在这个领域继续深耕
