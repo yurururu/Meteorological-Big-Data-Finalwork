@@ -12,9 +12,9 @@ Physics-constrained NN (forked form [constrained-downscaling-main](https://githu
 | E2   | TCW2   | 2×          | CNN      | 否             | Softmax    | Softmax物理约束对CNN的效果              |
 | E3   | TCW4   | 4×          | CNN      | 否             | None       | 基线模型：简单CNN无约束                 |
 | E4   | TCW4   | 4×          | CNN      | 否             | Softmax    | Softmax物理约束对CNN的效果              |
-| E5   | TCW4   | 4×          | ConvGRU  | 是             | None       | 基线ConvGRU时序建模性能                 |
-| E6   | TCW4   | 4×          | ConvGRU  | 是             | Softmax    | 加入Softmax约束对ConvGRU的提升          |
-| E7   | TCW4   | 4×          | ConvGRU  | 是             | Soft       | Soft软约束的协同效果                    |
+| E5   | T1   | 4×          | ConvGRU  | 是             | None       | 基线ConvGRU时序建模性能                 |
+| E6   | T1  | 4×          | ConvGRU  | 是             | Softmax    | 加入Softmax约束对ConvGRU的提升          |
+| E7   | T1   | 4×          | ConvGRU  | 是             | Soft       | Soft软约束的协同效果                    |
 | E8   | TCW4   | 4×          | GAN      | 否             | None       | GAN在无约束条件下性能                   |
 | E9   | TCW4   | 4×          | GAN      | 否             | Soft       | GAN结合Soft软约束                       |
 | E10  | TCW4   | 4×          | GAN      | 否             | Softmax    | GAN结合Softmax物理一致性约束           |
@@ -25,6 +25,6 @@ Physics-constrained NN (forked form [constrained-downscaling-main](https://githu
 
 - 本次试验结果基本可以判定，`CNN、GAN、FlowConvGRU`三种模型再加上物理约束后都有一定的性能提升，但是`CNN`在上采样率为`2x`时，效果不好，可能是由于上采样倍数不够或者数据集数量不够，原因有待验证
 
-- 本次实践中的流程图除了`CNN`的模型架构外均为本人自己制作，实验结果的特定帧的展示也是我自己得出的实验结果截图，本次实践时间跨度不长，但是前前后后也改了好几版
+- 本次实践中的流程图除了`CNN`的模型架构外均为本人自己制作，实验结果的特定帧的展示也是我自己得出的实验结果截图，本次实践时间跨度不长，但是前前后后也改了好几版，后面模型名称有打错的`tcw`打成了`twc`
 
 - 另外，我作为联合作者也发表了一篇模型中加入物理模块的相关论文`A Physics-Enhanced Network for Predicting Sequential Satellite Images of Typhoon Clouds`，未来会在这个领域继续深耕
