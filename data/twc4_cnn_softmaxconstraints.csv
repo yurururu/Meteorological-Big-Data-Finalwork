@@ -1,0 +1,31 @@
+dataset,TCW4
+model,cnn
+model_id,twc4_cnn_softmaxconstraints
+upsampling_factor,4
+constraints,softmax
+number_channels,64
+number_residual_blocks,4
+lr,0.001
+loss,mse
+optimizer,adam
+weight_decay,1e-09
+batch_size,64
+epochs,20
+alpha,0.99
+test_val_train,val
+training_evalonly,evalonly
+dim_channels,1
+adv_factor,0.0001
+MSE,0.18165802927144495
+RMSE,0.4262136
+PSNR,47.498924
+MAE,0.20987441215043268
+SSIM,0.9908625483512878
+MS SSIM,0.996284008026123
+Pearson corr,0.9971345067024231
+Mean bias,-2.0719501669930196e-09
+Mean abs bias,3.128550218889359e-08
+Mass_violation,9.595689577205729e-07
+neg mean,0.0
+neg num,0
+CRPS,0.0

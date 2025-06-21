@@ -1,0 +1,31 @@
+dataset,TCW4
+model,convgru
+model_id,tcw4_convgru_softconstraints
+upsampling_factor,4
+constraints,soft
+number_channels,64
+number_residual_blocks,4
+lr,0.001
+loss,mse
+optimizer,adam
+weight_decay,1e-09
+batch_size,64
+epochs,20
+alpha,0.99
+test_val_train,val
+training_evalonly,evalonly
+dim_channels,1
+adv_factor,0.0001
+MSE,1.121913971879209
+RMSE,1.0592045
+PSNR,39.591873
+MAE,0.5941855279604594
+SSIM,0.9724429845809937
+MS SSIM,0.9825616478919983
+Pearson corr,0.9865561127662659
+Mean bias,-0.14677685499191284
+Mean abs bias,0.21404162049293518
+Mass_violation,0.5093669121464094
+neg mean,-0.00037684105336666107
+neg num,23
+CRPS,0.0

@@ -1,0 +1,31 @@
+dataset,TCW8
+model,gan
+model_id,twc8_cnn_softmaxconstraints
+upsampling_factor,8
+constraints,softmax
+number_channels,64
+number_residual_blocks,4
+lr,0.001
+loss,mse
+optimizer,adam
+weight_decay,1e-09
+batch_size,64
+epochs,20
+alpha,0.99
+test_val_train,val
+training_evalonly,evalonly
+dim_channels,1
+adv_factor,0.0001
+MSE,1.5100232251981895
+RMSE,1.22883
+PSNR,38.301636
+MAE,0.7110082222521306
+SSIM,0.9433825016021729
+MS SSIM,0.9635529518127441
+Pearson corr,0.9746856689453125
+Mean bias,5.812617054345992e-09
+Mean abs bias,9.548734425379735e-08
+Mass_violation,1.5243594922746223e-06
+neg mean,0.0
+neg num,0
+CRPS,0.357673929023246

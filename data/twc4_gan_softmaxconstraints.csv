@@ -1,0 +1,31 @@
+dataset,TCW4
+model,gan
+model_id,twc4_gan_softmaxconstraints
+upsampling_factor,4
+constraints,softmax
+number_channels,64
+number_residual_blocks,4
+lr,0.001
+loss,mse
+optimizer,adam
+weight_decay,1e-09
+batch_size,64
+epochs,20
+alpha,0.99
+test_val_train,val
+training_evalonly,evalonly
+dim_channels,1
+adv_factor,0.0001
+MSE,0.20017706714027253
+RMSE,0.44741154
+PSNR,47.077328
+MAE,0.22844482630491258
+SSIM,0.989638090133667
+MS SSIM,0.995797872543335
+Pearson corr,0.9972611665725708
+Mean bias,-8.462909262263452e-10
+Mean abs bias,3.440679208210895e-08
+Mass_violation,9.325166077663502e-07
+neg mean,0.0
+neg num,0
+CRPS,0.11491957244152824

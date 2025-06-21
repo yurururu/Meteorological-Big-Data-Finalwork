@@ -1,0 +1,31 @@
+dataset,T1
+model,convgru
+model_id,t1_convgru_softmaxconstraints
+upsampling_factor,4
+constraints,softmax
+number_channels,64
+number_residual_blocks,4
+lr,0.001
+loss,mse
+optimizer,adam
+weight_decay,1e-09
+batch_size,64
+epochs,20
+alpha,0.99
+test_val_train,val
+training_evalonly,evalonly
+dim_channels,1
+adv_factor,0.0001
+MSE,0.6842127137386707
+RMSE,0.8271715
+PSNR,41.627155
+MAE,0.36432608567178254
+SSIM,0.9782884120941162
+MS SSIM,0.9908238053321838
+Pearson corr,0.9961294531822205
+Mean bias,-2.416685074280167e-09
+Mean abs bias,3.9558411657480974e-08
+Mass_violation,1.136794307967648e-06
+neg mean,0.0
+neg num,0
+CRPS,0.0
