@@ -11,9 +11,9 @@ Physics-constrained NN (forked form [constrained-downscaling-main](https://githu
 | E2   | TCW2   | 2×          | CNN      | 否             | Softmax    | Softmax物理约束对CNN的效果              |
 | E3   | TCW4   | 4×          | CNN      | 否             | None       | 基线模型：简单CNN无约束                 |
 | E4   | TCW4   | 4×          | CNN      | 否             | Softmax    | Softmax物理约束对CNN的效果              |
-| E5   | T1   | 4×          | ConvGRU  | 是             | None       | 基线ConvGRU时序建模性能                 |
-| E6   | T1  | 4×          | ConvGRU  | 是             | Softmax    | 加入Softmax约束对ConvGRU的提升          |
-| E7   | T1   | 4×          | ConvGRU  | 是             | Soft       | Soft软约束的协同效果                    |
+| E5   | TCW4   | 4×          | ConvGRU  | 否             | None       | 基线ConvGRU建模性能                 |
+| E6   | TCW4  | 4×          | ConvGRU  | 否             | Softmax    | 加入Softmax约束对ConvGRU的提升          |
+| E7   | TCW4   | 4×          | ConvGRU  | 否             | Soft       | Soft软约束的协同效果                    |
 | E8   | TCW4   | 4×          | GAN      | 否             | None       | GAN在无约束条件下性能                   |
 | E9   | TCW4   | 4×          | GAN      | 否             | Soft       | GAN结合Soft软约束                       |
 | E10  | TCW4   | 4×          | GAN      | 否             | Softmax    | GAN结合Softmax物理一致性约束           |
